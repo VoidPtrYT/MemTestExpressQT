@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MemTest Express</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabMain">
+     <attribute name="title">
+      <string>Главная</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabDrives">
+     <attribute name="title">
+      <string>Диски</string>
+     </attribute>
+     <widget class="QTabWidget" name="tabWidgetDrives">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>801</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tabDrivesTotal">
+       <attribute name="title">
+        <string>Сводка</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabDrivesSmart">
+       <attribute name="title">
+        <string>S.M.A.R.T.</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabDrivesStandartTests">
+       <attribute name="title">
+        <string>Стандартные тесты</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabSpecialTests">
+       <attribute name="title">
+        <string>Особые тесты</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabDrivesRunnedTests">
+       <attribute name="title">
+        <string>Запущенные тесты</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="tabDrivesAdditional">
+       <attribute name="title">
+        <string>Дополнительно</string>
+       </attribute>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabRam">
+     <attribute name="title">
+      <string>ОЗУ</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabVRAM">
+     <attribute name="title">
+      <string>ОЗУ Видеоадаптера</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabCPU">
+     <attribute name="title">
+      <string>Кэш процессора</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabAnother">
+     <attribute name="title">
+      <string>USB(Флешки и диски)</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabAbout_Help">
+     <attribute name="title">
+      <string>О программе, помощь</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabThanks">
+     <attribute name="title">
+      <string>Благодарности</string>
+     </attribute>
+    </widget>
+   </widget>
+   <widget class="QPlainTextEdit" name="tbLog">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>450</y>
+      <width>801</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
