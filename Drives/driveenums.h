@@ -1,6 +1,4 @@
-#ifndef DRIVEENUMS_H
-#define DRIVEENUMS_H
-
+#pragma once
 namespace Drives
 {
     enum EDriveBus : char
@@ -16,5 +14,3 @@ namespace Drives
         Another
     };
 }
-
-#endif // DRIVEENUMS_H

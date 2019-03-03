@@ -1,6 +1,4 @@
-#ifndef DRIVESTRUCT_H
-#define DRIVESTRUCT_H
-
+#pragma once
 namespace Drives
 {
     ///Provides data for technology S.M.A.R.T.
@@ -20,5 +18,3 @@ namespace Drives
         int _statusFlag = 0;
     };
 }
-
-#endif // DRIVESTRUCT_H

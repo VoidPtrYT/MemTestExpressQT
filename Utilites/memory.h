@@ -1,6 +1,4 @@
-#ifndef MEMORY_CUSTOM_H
-#define MEMORY_CUSTOM_H
-
+#pragma once
 #include <QString>
 
 namespace Utilites
@@ -100,5 +98,3 @@ namespace Utilites
         }
     };
 }
-
-#endif

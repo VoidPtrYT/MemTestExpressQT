@@ -31,13 +31,10 @@ SOURCES += \
     drivedata.cpp \
     main.cpp \
     mainwindow.cpp \
-    Drives/drivedata.cpp \
     main.cpp \
     mainwindow.cpp \
-    Drives/drivedata.cpp \
     main.cpp \
-    mainwindow.cpp \
-    Drives/drivepasport.cpp
+    mainwindow.cpp
 
 HEADERS += \
         mainwindow.h \
